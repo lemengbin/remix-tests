@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.4.20;
 import "./simple_storage.sol";
 
 contract MyTest {

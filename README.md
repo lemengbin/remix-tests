@@ -11,7 +11,7 @@ Remix-Tests
 
 Example test file:
 ```Javascript
-pragma solidity ^0.4.7;
+pragma solidity ^0.4.20;
 import "remix_tests.sol"; // injected by remix-tests
 import "./simple_storage.sol";
 
