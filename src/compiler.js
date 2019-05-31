@@ -15,7 +15,7 @@ function writeTestAccountsContract (accounts) {
   if (!accounts.length) body += ';'
   else {
     accounts.map((address, index) => {
-      body += `\naccounts[${index}] = ${address};\n`
+      body += `\naccounts[${index}] = address("${address}");\n`
     })
   }
   return testAccountContract.replace('>accounts<', body)
